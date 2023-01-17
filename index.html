@@ -6,29 +6,47 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./normalize.css">
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+  </style>
   
   <title>Frontend Mentor | Huddle landing page with single introductory section</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+
+    
 </head>
 <body>
+  <header>
+      <div class="img-container">
+        <img class="background-img" src="./images/bg-mobile.svg" alt="Backgroung image">
+  
+        <img class="logo-img" src="./images/logo.svg" alt="Company logo">
+  
+        <img class="main-img" src="./images/illustration-mockups.svg" alt="Main img">
+      </div>  
+  </header>
 
-  Build The Community Your Fans Will Love
-
-  Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
-  Create connections with your users as you engage in genuine discussion. 
-
-  Register
-
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+  <main>
+    <h1 class="tittle">
+      Build The Community Your Fans Will Love
+    </h1>
+    
+    <p class="text">
+    Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
+    Create connections with your users as you engage in genuine discussion. 
     </p>
-  </footer>
+
+    <button class="button"><a href="#">Register</a></button>
+    
+  </main>  
+  
+    <footer>
+      <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Your Name Here</a>.
+      </p>
+    </footer>
 </body>
 </html>
