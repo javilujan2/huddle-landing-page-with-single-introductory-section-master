@@ -131,16 +131,25 @@ background-color: var(--Violet);
     }
 
     .logo {
-        grid-area: header;
-        grid-template-column: 1 / 2;
-        grid-template-rows: 1 / 2;
-        align-self: center; 
+        grid-area: header; 
+    }
+
+    .logo-img {
+        margin: 70px 0 70px 70px;
+        width: 15%;
     }
 
     .principal {
         grid-area: img;
-
+        margin-left: 70px;
     }
+
+    .principal-img {
+        margin: 0;
+        width: fit-content;
+    }
+
+    
 
     .text-container {
         grid-area: text;
