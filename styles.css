@@ -104,6 +104,12 @@ background-color: var(--Violet);
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
+@media (max-width: 1439px){
+    .img-container-desktop {
+        display: none;
+    }
+}
+
 @media (min-width: 1440px) {
     .background-img-mobile {
         display: none;
@@ -153,11 +159,47 @@ background-color: var(--Violet);
 
     .text-container {
         grid-area: text;
+        margin-right: 100px;
+        margin-left: 50px;
     }
 
-    .social-media-container {
-        grid-area: footer;
-        justify-self: end;
-        
+    .text-container .tittle {
+        grid-area: 2 / 5;
+        text-align: left;
+        padding: 0;
+        margin-top: 50px;
+        margin-bottom: 0;
+        font-size: 2.2rem;
+        line-height: 1.7;
     }
+
+    .text-container .text {
+        grid-area: 3 / 5;
+        text-align: left;
+        padding: 0;
+        margin-top: 0;
+        font-size: 1rem;
+        line-height: 1.8;
+    }
+
+    .text-container .button {
+        grid-area: 4 / 5;
+        float: left;
+        padding: 0.7rem 3rem;
+    }
+
+    footer {
+        grid-area: footer;
+        height: 100vh;
+    }
+
+    .social-media-container  {
+        justify-content: right;
+        width: auto;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-right: 100px;
+    }
+
+
   }
